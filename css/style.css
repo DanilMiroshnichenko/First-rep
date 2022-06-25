@@ -1,0 +1,175 @@
+:root {
+    --color1: #2d2f31;
+    --color2: #ebebeb;
+}
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #2d2f31;
+}
+body {
+    margin: 0;
+}
+header {
+    height: 450px;
+}
+.container {
+    margin: 0 auto;
+}
+.head {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+.head_title {
+    padding-left: 100px;
+}
+.image_head>img {
+    height: 450px;
+}
+.title {
+    font-size: 65px;
+}
+.sub_title {
+    background-color: var(--color2);
+    padding: 5px 20px;
+    width: 270px;
+    text-align: center;
+}
+.head_text {
+    width: 750px;
+}
+/* Section Page */
+section {
+    background-color: var(--color2);
+
+}
+.content_box {
+    display: flex;
+    justify-content: flex-start;
+}
+.contact {
+    width: 300px;
+    background-color: var(--color1);
+    padding: 40px 0px 40px 15px;
+}
+.exp {
+    padding-left: 100px;
+}
+.exp_container {
+    display: flex;
+    justify-content: space-between;
+}
+.exp_box {
+    padding-right: 150px;
+}
+a>i {
+    font-size: 25px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 7px;
+}
+a>i:hover {
+    background-color: #fff;
+    color: var(--color1);
+}
+.experience_text {
+    width: 300px;
+}
+.skill_box {
+    display: flex;
+    align-items: center;
+}
+.skill_range {
+    width: 100px;
+    height: 3px;
+    background-color: black;
+}
+.skill_text1 {
+    padding-right: 69px;
+}
+.skill_text2 {
+    padding-right: 82px;
+}
+.skill_text3 {
+    padding-right: 25px;
+}
+.skill_text4 {
+    padding-right: 58px;
+}
+.skill_text5 {
+    padding-right: 49px;
+}
+.skill_text6 {
+    padding-right: 25px;
+}
+.block1 {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: relative;
+    bottom: 6px;
+    left: 70px;
+}
+.block2 {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: relative;
+    bottom: 6px;
+    left: 60px;
+}
+.block3 {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: relative;
+    bottom: 6px;
+    left: 50px;
+}
+.block4 {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: relative;
+    bottom: 6px;
+    left: 20px;
+}
+.block5 {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: relative;
+    bottom: 6px;
+    left: 10px;
+}
+.block6 {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: relative;
+    bottom: 6px;
+    left: 55px;
+}
+.sectoin_table {
+    display: flex;
+    justify-content: space-between;
+}
+.site_body h2 {
+    font-size:  30px;
+}
+/* Hobbies */
+.hobies {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* align-items: center; */
+}
+.hobies i {
+    font-size: 35px;
+}
+/* Colors */
+.color-white {
+    color: #fff;
+}
+
